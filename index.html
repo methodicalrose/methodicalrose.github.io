@@ -5,8 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Andy Callahan - Web Developer</title>
+    <!-- Link Google Fonts here -->
+    <link href="https://fonts.googleapis.com/css?family=Ledger|Nixie+One" rel="stylesheet">
+    <!-- Link Styles here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  Hello world.
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Andy Callahan</h1>
+    <h3><b>WEB DEVELOPER</b></h3>
+    <h4>Fresno, CA</h4>
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#about">More About Me</button>
+
+    <div id="about" class="collapse">
+    <p>Lorem ipsum dolor text....</p>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
 </body>
 </html>
