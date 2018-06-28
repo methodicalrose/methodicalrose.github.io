@@ -1,8 +1,20 @@
 h1, h2, h3, h4 {
   font-family: 'Nixie One', cursive;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 p {
   font-family: 'Ledger', serif;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+i {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 body {
   background-image: linear-gradient(to right, #0d324a, #235170, #397299, #4f95c4, #66baf0);
@@ -20,4 +32,9 @@ body {
 }
 .btn {
   margin-top: 10px;
+}
+#portfolio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #000000;
 }

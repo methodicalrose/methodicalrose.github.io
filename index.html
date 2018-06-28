@@ -19,22 +19,26 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
       </div>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">GitHub</a></li>
-      </ul>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/methodicalrose">GitHub</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
 
-  <div class="jumbotron text-center">
+  <div id="home" class="jumbotron text-center">
     <h1>Andy Callahan</h1>
     <h3><b>WEB DEVELOPER</b></h3>
     <h4>Fresno, CA</h4>
@@ -42,6 +46,68 @@
 
     <div id="about" class="collapse">
     <p>Lorem ipsum dolor text....</p>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="skills col-xs-12">
+        <h1>SKILLS</h1>
+      </div>
+      <div class="col-xs-3">
+        <i class="fab fa-html5"></i>
+      </div>
+      <div class="col-xs-3">
+        <i class="fab fa-css3"></i>
+      </div>
+      <div class="col-xs-3">
+        <img height="50px" width="50px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAB+0lEQVR4AcyYg5LkUBhG+1X2PdZGaW3btm3btm3bHttWrPomd1r/2Jn/VJ02TpxcH4CQ/dsuazWgzbIdrm9dZVd4pBz4zx2igTaFHrhvjneVXNHCSqIlFEjiwMyyyOBilRgGSqLNF1jnwNQdIvAt48C3IlBmHCiLQHC2zoHDu6zG1iXn6+y62ScxY9AODO6w0pvAqf23oSE4joOfH6OxfMoRnoGUm+de8wykbFt6wZtA07QwtNOqKh3ZbS3Wzz2F+1c/QJY0UCJ/J3kXWJfv7VhxCRRV1jGw7XI+gcO7rEFFRvdYxydwcPsVsC0bQdKScngt4iUTD4Fy/8p7PoHzRu1DclwmgmiqgUXjD3oTKHbAt869qdJ7l98jNTEblPTkXMwetpvnftA0LLHb4X8kiY9Kx6Q+W7wJtG0HR7fdrtYz+x7iya0vkEtUULIzCjC21wY+W/GYXusRH5kGytWTLxgEEhePPwhKYb7EK3BQuxWwTBuUkd3X8goUn6fMHLyTT+DCsQdAEXNzSMeVPAJHdF2DmH8poCREp3uwm7HsGq9J9q69iuunX6EgrwQVObjpBt8z6rdPfvE8kiiyhsvHnomrQx6BxYUyYiNS8f75H1w4/ISepDZLoDhNJ9cdNUquhRsv+6EP9oNH7Iff2A9g8h8CLt1gH0Qf9NMQAFnO60BJFQe0AAAAAElFTkSuQmCC">
+      </div>
+      <div class="col-xs-3">
+        <i class="fab fa-git-square"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">
+        <p>HTML 5</p>
+      </div>
+      <div class="col-xs-3">
+        <p>CSS 3</p>
+      </div>
+      <div class="col-xs-3">
+        <p>Bootstrap</p>
+      </div>
+      <div class="col-xs-3">
+        <p>GitBash</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="embed-container text-center">
+    <div class="row">
+      <div class="text-center">
+        <h1>PORTFOLIO</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-xs-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://methodicalrose.github.io/raven-ink-tattoos/" style="height: 101%" allowfullscreen></iframe>
+        </div>
+        <p>Raven Ink - HTML + CSS</p>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://methodicalrose.github.io/bootcamp2-work/" style="height: 101%" allowfullscreen></iframe>
+        </div>
+        <p>Pet Store - HTML, CSS + Bootstrap</p>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://methodicalrose.github.io/restaurant2018/" style="height: 101%" allowfullscreen></iframe>
+        </div>
+        <p>Chef's Table - HTML, CSS + Bootstrap</p>
+      </div>
     </div>
   </div>
 
