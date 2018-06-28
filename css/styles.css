@@ -16,6 +16,7 @@ body {
 .jumbotron {
   background-color: #0d324a;
   color: #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 .btn {
   margin-top: 10px;
